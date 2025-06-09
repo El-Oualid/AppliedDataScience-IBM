@@ -19,7 +19,7 @@ we will need it if we analyse outside accumulo?
 
 driver: configures the AccumuloInputFormat to read only the link-count columns (opl:ccXY)
 
-After we’ve got a dirof files with lines like, werun TransformDomainListToRangesInJobConfAction, which reads every part-* file in our output dir. keeps those whose exceeds the barrier value. Normalizer the patterns (get the [example.com](http://example.com) of every domain, then reverse it for accumulo com.example). Then genereate accumulo range object per domain.  
+After we’ve got a dirof files with lines like, werun TransformDomainListToRangesInJobConfAction, which reads every part-* file in our output dir. keeps those whose exceeds the barrier value. Normalizer the patterns (get the (http://example.com) of every domain, then reverse it for accumulo com.example). Then genereate accumulo range object per domain.  
 
 also write hadoop confi xml file with those ranges, that can go to the job’s input settings, that can pass directly inot any mapreduce job 
 
